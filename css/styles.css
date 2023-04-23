@@ -30,7 +30,13 @@ body {
     background-color: var(--white-color);
 }
  /*--reset start--*/
-h1 h2 h3 h4 h5 h6 p {
+h1,
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p {
     margin: 0px;
 }
 button {
@@ -436,53 +442,60 @@ flex-grow: 0;
     
 /*-----portfolio-----*/
 
-.btn-portfolio-box {
-    box-sizing: border-box;
+.btn-portfolio-list {
 
 display: flex;
 flex-direction: row;
 justify-content: center;
-align-items: center;
-padding: 12px 24px;
+align-items: flex-start;
+flex-basis: 586px;
+gap: 24px;
+padding: 72px 0px;
 
-height: 48px;
-
-background: var(--backgraund-light);
-
-border: 1px solid #E7E9FC;
-border-radius: 4px;
-
-flex: none;
-order: 1;
-flex-grow: 0;
 }
 
-.btn-portfolio-text {
-    font-weight: 500;
-font-size: 16px;
-line-height: 24px;
+.btn-portfolio {
 
 display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 24px;
 
-color: var(--btn-color-iris);
+
+
+background: var(--backgraund-light);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
 
 flex: none;
 order: 0;
 flex-grow: 0;
 }
+.container-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+    padding: 0px;margin: 0px -15px;
+
+}
 .card-box {
     box-sizing: border-box;
 
-    position: absolute;
-    width: 360px;
-    height: 420px;
-    left: 156px;
-    top: 288px;
+    flex-basis: 360px;
     
-    border: 1px solid #E7E9FC;
+    border: 1px solid var(--leinercoolor);
+}
+.card-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px 16px;
+
+    gap: 8px;
+    
+    flex-basis: 360px;
 }
 .adress-item {}
 
