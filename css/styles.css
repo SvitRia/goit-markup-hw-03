@@ -145,6 +145,7 @@ div {
     display: flex;
     width: 1158px;
     padding: 0px 15px;
+    margin: 0px auto;
     justify-content: space-between;
     align-items: center;
 
@@ -238,6 +239,7 @@ div {
         flex-direction: row;
         align-items: center;
         padding: 16px 32px;
+        margin: 0px auto;
         gap: 10px;
         min-width: 169px;
         height: 56;
@@ -301,14 +303,13 @@ background: var(--backgraund-dark);
 }
 .hero-tittle {
 max-width: 496px; 
-margin: 0px;
+margin: 0px auto;
 text-align: center;
     
 }
 .hero-button {
 display: block;
-margin-bottom: 48px auto;
-align-content: center;
+
 
 
 }
@@ -383,7 +384,7 @@ gap: 8px;
 
 .team-container {
     padding: 120px 0px;
-    flex-basis: calc((100%-72px)/4);
+    
     background:var(--backgraund-light);
 }
 .team-item {
@@ -394,6 +395,7 @@ justify-content: center;
 align-items: center;
 padding: 0px 0px 32px;
 gap: 32px;
+flex-basis: calc((100%-72px)/4);
 
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0px 0px 4px 4px;
@@ -454,14 +456,14 @@ flex-grow: 0;
 
 }
 .footer-reset {
-    display: inline-block;
-    margin-bottom: 16px;
+display: inline-block;
+margin-bottom: 16px;
    
 }
-    .footer-item {
-    max-width: 264px; 
-    color: var(--white-color);
-    }
+.footer-item {
+max-width: 264px; 
+color: var(--white-color);
+}
     
 /*-----portfolio-----*/
 
@@ -486,7 +488,7 @@ display: flex;
 flex-direction: row;
 align-items: flex-start;
 padding: 12px 24px;
-border: var(--leinercoolor);
+border: 1px solid var(--leinercoolor);
 
 background: var(--backgraund-light);
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -506,10 +508,10 @@ flex-wrap: wrap;
 row-gap: 48px;
 column-gap: 24px;
 padding: 0px;
-margin: 0px -15px;
+margin: 0px;
 }
 .card-box {
-flex-basis: calc((100% - 48px)/3); 
+width: calc((100% - 48px)/3); 
 border: 1px solid var(--leinercoolor);
 }
 .card-text-box {
@@ -518,8 +520,10 @@ border: 1px solid var(--leinercoolor);
     justify-content: center;
     align-items: flex-start;
     padding: 32px 16px;
-    border: var(--leinercoolor);
+    border: 1px solid var(--leinercoolor);
     gap: 8px;
+    max-width: 360px;
+    
     
     flex-basis: 360px;
 }
