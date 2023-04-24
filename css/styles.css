@@ -395,7 +395,7 @@ justify-content: center;
 align-items: center;
 padding: 0px 0px 32px;
 gap: 32px;
-flex-basis: calc((100%-72px)/4);
+width: calc((100%-72px)/4);
 
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0px 0px 4px 4px;
@@ -521,6 +521,7 @@ border: 1px solid var(--leinercoolor);
     align-items: flex-start;
     padding: 32px 16px;
     border: 1px solid var(--leinercoolor);
+    border-top: none;
     gap: 8px;
     max-width: 360px;
     
