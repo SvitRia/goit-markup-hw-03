@@ -144,7 +144,6 @@ div {
 .top-line {
     display: flex;
     width: 1158px;
-    margin: 0px auto;
     padding: 0px 15px;
     justify-content: space-between;
     align-items: center;
@@ -174,7 +173,6 @@ div {
     letter-spacing: 0.03em;
     flex-direction: row;
     align-items: center;
-    width: 115px;
     margin-right: 76px;
 }
 .logo-studio {
@@ -205,7 +203,7 @@ div {
 
 .link-list {
     display: flex;
-    gap: 24px;
+    gap: 40px;
     margin-right: auto;
 }
 .link-item {
@@ -270,7 +268,7 @@ div {
     border: 5px solid var(--white-color);
 }
 .container {
-width: 1128px;
+width: 1158px;
 padding: 0 15px; 
 margin: 0 auto;
 outline: 2px solid red;
@@ -449,7 +447,7 @@ flex-grow: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    /*padding: 0px;*/
     margin-left: 156px;
     gap: 16px;
     background: var(--backgraund-dark);
