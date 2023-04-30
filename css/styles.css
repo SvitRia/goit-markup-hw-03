@@ -372,7 +372,7 @@ flex-basis: calc((100%-24px*3)/4);
     background:var(--backgraund-light);
     width: 1440px;
     margin: 0px auto;
-    padding: 120px 0px;
+    padding-bottom: 120px;
 }
 
 .team-container {
