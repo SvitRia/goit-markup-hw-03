@@ -345,7 +345,7 @@ flex-basis: calc((100%-24px*3)/4);
 /*---about---*/
 
 .about-section {
-
+padding-bottom: 120px;
 }
 .about-container {
    
